@@ -1,0 +1,20 @@
+# Server Mode
+NODE_ENV=development
+# NODE_ENV=production
+
+PORT=3000
+
+# Secrets
+SESSION_SECRET="MySecretKey"
+JWT_KEY="MySecretKey"
+JWT_EXPIRE=1h
+
+# Max Requests per hour per IP adress
+MAX_REQ_PER_HOUR = 50
+
+# postgres connection
+PG_DB=
+PG_HOST=
+PG_PORT=
+PGUSER=
+PG_PW=
